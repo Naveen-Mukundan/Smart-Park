@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:text="Confirmation QR code scan"
+        android:id="@+id/kk" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:id="@+id/imageView1" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="Next"
+        android:layout_gravity="center_horizontal"
+        android:onClick="buttonclicked"
+        android:background="@color/secondary_text_disabled_material_dark" />
+</LinearLayout>

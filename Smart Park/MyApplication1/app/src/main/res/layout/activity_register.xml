@@ -1,0 +1,130 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+
+    android:padding="10dp"
+    android:layout_width="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00ffffff">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="First Name"
+                android:layout_height="wrap_content" />
+
+
+            <EditText
+                android:id="@+id/etfname"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Last Name"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/etlname"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Mobile Number"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/etphone"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Email"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/etmail"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="User Name"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/us"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Password"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/etpassword"
+                android:layout_margin="10dp"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Car company"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/etcarcomp"
+                android:layout_margin="10dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/etcarcomp1"
+                android:layout_margin="10dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Car number"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/etcarnumber"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+                 <Button
+                android:id="@+id/bregister"
+                android:onClick="regbuttonclicked"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etlname"
+                android:layout_alignLeft="@+id/etlname"
+                android:layout_alignStart="@+id/elname"
+                android:text="REGISTER"
+                     android:background="@color/switch_thumb_disabled_material_dark"
+                     android:backgroundTint="#9d8d8d8d" />
+
+
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout>

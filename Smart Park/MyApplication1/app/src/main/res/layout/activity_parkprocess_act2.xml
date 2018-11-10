@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:text="Scan the QR code displayed"/>
+
+    <TextView android:layout_width="373dp"
+        android:layout_height="250dp"
+        android:gravity="center"
+        android:id="@+id/tvResult"
+        android:textSize="100dp"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:layout_width="189dp"
+        android:layout_height="61dp"
+        android:text="NEXT"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+        android:onClick="buttonclicked" />
+
+</LinearLayout>

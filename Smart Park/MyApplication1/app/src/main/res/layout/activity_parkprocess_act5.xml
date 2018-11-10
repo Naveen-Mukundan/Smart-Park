@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:text="Scan QR code to receive receipt"
+        android:id="@+id/textView" />
+
+    <TextView android:layout_width="373dp"
+        android:layout_height="250dp"
+        android:id="@+id/tvResult"
+        android:gravity="center"
+        android:textSize="100dp"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"
+        android:layout_weight="0.59"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="buttonclicked" />
+    <Button android:layout_width="201dp"
+        android:layout_height="68dp"
+        android:id="@+id/butQR"
+        android:text="EXIT"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="68dp"
+        android:background="@color/secondary_text_disabled_material_dark"
+        android:onClick="buttonclicked" />
+
+</RelativeLayout>
